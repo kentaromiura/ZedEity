@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Snapshot", "Test.Extensions.Snapshot\Snapshot.csproj", "{05556985-0BC5-4725-8F3C-CF0956C26411}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ZedEity", "ZedEity.fsproj", "{028A5031-0F79-427C-A12B-7758AD0666BA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{05556985-0BC5-4725-8F3C-CF0956C26411}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05556985-0BC5-4725-8F3C-CF0956C26411}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05556985-0BC5-4725-8F3C-CF0956C26411}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05556985-0BC5-4725-8F3C-CF0956C26411}.Release|Any CPU.Build.0 = Release|Any CPU
+		{028A5031-0F79-427C-A12B-7758AD0666BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{028A5031-0F79-427C-A12B-7758AD0666BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{028A5031-0F79-427C-A12B-7758AD0666BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{028A5031-0F79-427C-A12B-7758AD0666BA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AC164A5F-1F51-4449-AEA6-35903BD6A758}
+	EndGlobalSection
+EndGlobal

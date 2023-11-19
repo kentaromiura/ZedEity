@@ -1,0 +1,22 @@
+// z80 pin out from manual:
+// 0 = LSB (15, 7) MSB
+// ** A0 - A15 ** address bus, active high
+// 64k of memory, only a0-a7 for I/O ports.
+// ** D0 - D7 ** data bus, active high
+// ** m1 **, machine cycle, low = fetch operations
+// ** mreq **, memory request signal, when low address bus is valid for memory R/W operations
+// ** iorq **, I/O request, a0-a7 select the port (0-255)
+// ** rd **, low = read operation is ongoing
+// ** wr **, low = write operation is ongoing
+// ** rfsh **, low = lower 7 bits of address bus contain refresh memory
+// ** halt **, low = cpu is in halt (executes nop, awaiting interrupt signal)
+// ** wait **, low = not yet ready for I/O
+// ** int **, low = request interrupt depending on interupt flip-flop
+// ** nmi **, low = request interrupt regardless of flip-flop
+// ** reset **, low = enable interrupt flip-flop, PC = 0000, clear I, R)
+// ** busrq **, low = cpu address bus, data bus and control signal goes to high impedance
+// busrq has > priority on nmi
+// ** busaq **, low = cpu has freed the bus
+// ** Clock **, 
+// ** GND **, ground
+// ** 5v ** 5 volts input

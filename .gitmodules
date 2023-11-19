@@ -1,0 +1,3 @@
+[submodule "Test.Extensions.Snapshot"]
+	path = Test.Extensions.Snapshot
+	url = https://github.com/kentaromiura/Test.Extensions.Snapshot.git

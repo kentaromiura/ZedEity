@@ -1,0 +1,13 @@
+{
+  "test hello world (40)": "00 ",
+  "test hello world (41)": "0C ",
+  "test hello world (43)": "0F ",
+  "test hello world (45)": "48 ",
+  "test hello world (47)": "00 ",
+  "test hello world (48)": "0D ",
+  "test hello world (50)": "b 0F ",
+  "test hello world (51)": "pc 09 ",
+  "test hello world (53)": "b 0E ",
+  "test hello world (54)": "pc 05 ",
+  "test hello world (62)": "\u003E 21 0C 00 06 0F 7E 23 D3 \n\u003E 00 10 FA 76 48 65 6C 6C \n\u003E 6F 2D 77 6F 72 6C 64 20 \n\u003E 21 21 21 00 00 00 00 00 \n\u003E 00 00 00 00 00 00 00 00 \n\u003E "
+}
